@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Header from './components/header'
+// import Header from './components/header'
 import Splash from './components/splash'
 
 export default function App() {
