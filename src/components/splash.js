@@ -1,28 +1,34 @@
 import * as React from 'react'
+import Header from './header'
 import '../styles/global.css'
 
 const pageStyles = {
   fontFamily: 'Roboto, sans-serif, serif',
-  display: 'flex',
   margin: '0px auto',
   maxWidth: '723px',
-  color: '#403e3e',
 }
 
 const body = {
-  paddingTop: '100px',
+  paddingTop: '70px',
   paddingBottom: '100px',
-  fontSize: '28px',
-  paddingRight: '20px',
-  paddingLeft: '20px',
+  fontSize: '20px',
+  color: '#403e3e',
+  paddingRight: '40px',
+  paddingLeft: '40px',
+}
+
+const header = {
+  color: '#000000',
+  fontSize: '38px',
 }
 
 const Splash = () => {
   return (
     <main style={pageStyles}>
       <title>Jennifer Chen</title>
+      <Header />
       <div style={body}>
-        <h1>Hi I'm Jennifer — aspiring developer</h1>
+        <h1 style={header}>Hi I'm Jennifer — aspiring engineer</h1>
         <p>
           I am currently in my third year of Systems Design Engineering at the
           University of Waterloo.
