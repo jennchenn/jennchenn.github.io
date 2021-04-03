@@ -69,7 +69,6 @@ const ratio = {
 };
 
 const Splash = () => {
-  const isVisible = true;
   return (
     <div>
       <title>Jennifer Chen</title>

@@ -49,7 +49,7 @@ function Header() {
           </div>
         </Col>
         <Col>
-          {window.innerWidth > 800 && (
+          {windowSize.width > 800 && (
             <Row style={menu}>
               <Col md={4} lg={4}>
                 <div>about</div>
@@ -62,7 +62,7 @@ function Header() {
               </Col>
             </Row>
           )}
-          {window.innerWidth <= 800 && (
+          {windowSize.width <= 800 && (
             <DropdownButton
               variant="outline-dark"
               style={menu}
