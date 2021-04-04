@@ -13,7 +13,7 @@ const pageStyles = {
 
 const body = {
   paddingTop: "70px",
-  paddingBottom: "100px",
+  paddingBottom: "80px",
   paddingRight: "40px",
   paddingLeft: "40px",
 };
@@ -32,19 +32,7 @@ const paragraphText = {
 
 const column = {
   paddingLeft: "0px",
-  paddingRight: "0px",
-};
-
-const alignRight = {
-  textAlign: "right",
-};
-
-const alignLeft = {
-  textAlign: "left",
-};
-
-const alignCentre = {
-  textAlign: "center",
+  paddingRight: "5px",
 };
 
 const link = {
@@ -71,6 +59,11 @@ const waterloop = {
 
 const ratio = {
   backgroundColor: "#E0FFE5",
+};
+
+const bottomLinks = {
+  display: "flex",
+  justifyContent: "space-between",
 };
 
 const Splash = () => {
@@ -156,18 +149,8 @@ const Splash = () => {
               chat!
             </p>
             <Container fluid>
-              <Row>
-                <Col style={{ ...column, ...alignLeft }}>
-                  <a
-                    style={link}
-                    href="https://www.linkedin.com/in/jenniferjcchen"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    linkedin
-                  </a>
-                </Col>
-                <Col style={{ ...column, ...alignCentre }}>
+              <Row style={bottomLinks}>
+                <Col style={column}>
                   <a
                     style={link}
                     href={Resume}
@@ -178,7 +161,17 @@ const Splash = () => {
                     resume
                   </a>
                 </Col>
-                <Col style={{ ...column, ...alignRight }}>
+                <Col style={column}>
+                  <a
+                    style={link}
+                    href="https://www.linkedin.com/in/jenniferjcchen"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    linkedin
+                  </a>
+                </Col>
+                <Col style={column}>
                   <a
                     style={link}
                     href="https://github.com/jennchenn"
@@ -188,7 +181,7 @@ const Splash = () => {
                     github
                   </a>
                 </Col>
-                <Col style={{ ...column, ...alignRight }}>
+                <Col style={column}>
                   <a
                     className="link-hover"
                     style={link}
