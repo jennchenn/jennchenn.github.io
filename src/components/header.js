@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+// import React, { useState, useEffect } from "react";
 import Logo from "../assets/logo.png";
-import { Container, Row, Col, DropdownButton, Dropdown } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+// import { Container, Row, Col, DropdownButton, Dropdown } from "react-bootstrap";
 import "../styles/global.css";
 
 const header = {
@@ -15,28 +17,28 @@ const image = {
   marginLeft: "15px",
 };
 
-const menu = {
-  float: "right",
-};
+// const menu = {
+//   float: "right",
+// };
 
 const col = {
   paddingLeft: "0px",
 };
 
 function Header() {
-  const getSize = () => {
-    return {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
-  };
-  const [windowSize, setWindowSize] = useState(getSize());
+  // const getSize = () => {
+  //   return {
+  //     width: window.innerWidth,
+  //     height: window.innerHeight,
+  //   };
+  // };
+  // const [windowSize, setWindowSize] = useState(getSize());
 
-  useEffect(() => {
-    const handleResize = () => setWindowSize(getSize());
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  // useEffect(() => {
+  //   const handleResize = () => setWindowSize(getSize());
+  //   window.addEventListener("resize", handleResize);
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, []);
 
   return (
     <Container style={header}>
@@ -48,7 +50,7 @@ function Header() {
             </a>
           </div>
         </Col>
-        <Col>
+        {/* <Col>
           {windowSize.width > 800 && (
             <Row style={menu}>
               <Col md={4} lg={4}>
@@ -75,7 +77,7 @@ function Header() {
               <Dropdown.Item eventKey="3">resume</Dropdown.Item>
             </DropdownButton>
           )}
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
