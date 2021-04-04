@@ -9,6 +9,8 @@ const header = {
   paddingLeft: "40px",
   paddingRight: "40px",
   paddingTop: "40px",
+  marginLeft: "0px",
+  marginRight: "0px",
 };
 
 const image = {

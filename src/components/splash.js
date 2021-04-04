@@ -14,8 +14,8 @@ const pageStyles = {
 const body = {
   paddingTop: "70px",
   paddingBottom: "100px",
-  paddingRight: "50px",
-  paddingLeft: "50px",
+  paddingRight: "40px",
+  paddingLeft: "40px",
 };
 
 const header = {

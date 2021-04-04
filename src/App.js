@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import Splash from "./components/splash";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <Router>
         <Route path="/" render={() => <Splash />} />
       </Router>
+      <Footer />
     </div>
   );
 }
