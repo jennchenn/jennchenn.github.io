@@ -16,7 +16,7 @@
   opacity: 0;
   transform: translateY(10vh);
   visibility: hidden;
-  transition: opacity 7s ease, transform 1.2s ease;
+  transition: opacity 3s ease, transform 1.2s ease;
   will-change: opacity, visibility;
 }
 

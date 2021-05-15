@@ -1,69 +1,69 @@
-import * as React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import * as React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-import Resume from "../assets/JenniferChenResume.pdf";
-import "../styles/global.css";
-import "../styles/fade.css";
+import Resume from '../assets/JenniferChenResume.pdf';
+import '../styles/global.css';
+import '../styles/fade.css';
 
 const pageStyles = {
-  margin: "0px auto",
-  maxWidth: "723px",
+  margin: '0px auto',
+  maxWidth: '723px',
 };
 
 const body = {
-  paddingTop: "70px",
-  paddingBottom: "80px",
-  paddingRight: "40px",
-  paddingLeft: "40px",
+  paddingTop: '70px',
+  paddingBottom: '80px',
+  paddingRight: '40px',
+  paddingLeft: '40px',
 };
 
 const header = {
-  color: "#000000",
-  fontSize: "38px",
-  marginBottom: "50px",
+  color: '#000000',
+  fontSize: '38px',
+  marginBottom: '50px',
 };
 
 const paragraphText = {
-  fontSize: "20px",
-  color: "#403e3e",
-  marginBottom: "40px",
+  fontSize: '20px',
+  color: '#403e3e',
+  marginBottom: '40px',
 };
 
 const column = {
-  paddingLeft: "0px",
-  paddingRight: "5px",
+  paddingLeft: '0px',
+  paddingRight: '5px',
 };
 
 const link = {
-  color: "#403e3e",
-  fontSize: "20px",
-  backgroundColor: "#E0F0FF",
+  color: '#403e3e',
+  fontSize: '20px',
+  backgroundColor: '#E0F0FF',
 };
 
 const engineering = {
-  backgroundColor: "#E7E2FF",
+  backgroundColor: '#E7E2FF',
 };
 
 const scotia = {
-  backgroundColor: "#FFE0EB",
+  backgroundColor: '#FFE0EB',
 };
 
 const globe = {
-  backgroundColor: "#FEE0FF",
+  backgroundColor: '#FEE0FF',
 };
 
 const waterloop = {
-  backgroundColor: "#FAFFE0",
+  backgroundColor: '#FAFFE0',
 };
 
 const ratio = {
-  backgroundColor: "#E0FFE5",
+  backgroundColor: '#E0FFE5',
 };
 
 const bottomLinks = {
-  display: "flex",
-  justifyContent: "space-between",
+  display: 'flex',
+  justifyContent: 'space-between',
 };
 
 const Splash = () => {
@@ -75,17 +75,17 @@ const Splash = () => {
           <ReactCSSTransitionGroup
             transitionName="header"
             transitionAppear={true}
-            transitionAppearTimeout={500}
+            transitionAppearTimeout={300}
           >
             <h1 style={header}>Hi I'm Jennifer — aspiring engineer.</h1>
           </ReactCSSTransitionGroup>
           <ReactCSSTransitionGroup
             transitionName="body"
             transitionAppear={true}
-            transitionAppearTimeout={700}
+            transitionAppearTimeout={500}
           >
             <p style={paragraphText}>
-              I am currently in my third year of{" "}
+              I am currently in my third year of{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...engineering }}
@@ -94,11 +94,11 @@ const Splash = () => {
                 rel="noreferrer"
               >
                 Systems Design Engineering
-              </a>{" "}
+              </a>{' '}
               at the University of Waterloo.
               <br />
               <br />
-              Previously I’ve worked as a{" "}
+              Previously I’ve worked as a{' '}
               {/* <a
                 className="link-hover"
                 style={{ ...link, ...scotia }}
@@ -109,7 +109,7 @@ const Splash = () => {
                 Full-Stack Developer Intern
               </a>{" "} */}
               <span style={scotia}>Full-Stack Developer Intern</span> at
-              Scotiabank,{" "}
+              Scotiabank,{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...globe }}
@@ -118,8 +118,8 @@ const Splash = () => {
                 rel="noreferrer"
               >
                 Data Engineering Intern
-              </a>{" "}
-              at The Globe and Mail and{" "}
+              </a>{' '}
+              at The Globe and Mail and{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...ratio }}
@@ -128,11 +128,11 @@ const Splash = () => {
                 rel="noreferrer"
               >
                 Software Engineering Intern
-              </a>{" "}
+              </a>{' '}
               at Ratio.City.
               <br />
               <br />
-              Outside of class I manage a team of 75+ students at{" "}
+              Outside of class I manage a team of 75+ students at{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...waterloop }}
