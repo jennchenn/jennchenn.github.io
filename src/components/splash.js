@@ -38,7 +38,7 @@ const column = {
 const link = {
   color: '#403e3e',
   fontSize: '20px',
-  backgroundColor: '#E0F0FF',
+  backgroundColor: '#E5FFFF',
 };
 
 const engineering = {
@@ -59,6 +59,14 @@ const waterloop = {
 
 const ratio = {
   backgroundColor: '#E0FFE5',
+};
+
+const clearbridge = {
+  backgroundColor: '#FFE8D1',
+};
+
+const blueprint = {
+  backgroundColor: '#E0F0FF',
 };
 
 const bottomLinks = {
@@ -119,7 +127,7 @@ const Splash = () => {
               >
                 Data Engineering Intern
               </a>{' '}
-              at The Globe and Mail and{' '}
+              at The Globe and Mail,{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...ratio }}
@@ -129,10 +137,20 @@ const Splash = () => {
               >
                 Software Engineering Intern
               </a>{' '}
-              at Ratio.City.
+              at Ratio.City, and{' '}
+              <a
+                className="link-hover"
+                style={{ ...link, ...clearbridge }}
+                href="https://clearbridgemobile.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                QA Analyst
+              </a>{' '}
+              at Clearbridge Mobile.
               <br />
               <br />
-              Outside of class I manage a team of 75+ students at{' '}
+              Outside of class I manage a team of 80+ students at{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...waterloop }}
@@ -141,6 +159,16 @@ const Splash = () => {
                 rel="noreferrer"
               >
                 Waterloop
+              </a>
+              , and develop for social good at{' '}
+              <a
+                className="link-hover"
+                style={{ ...link, ...blueprint }}
+                href="http://uwblueprint.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blueprint
               </a>
               .
               <br />
