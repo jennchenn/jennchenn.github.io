@@ -50,7 +50,11 @@ const scotia = {
 };
 
 const globe = {
-  backgroundColor: '#FEE0FF',
+  backgroundColor: '#F0D2D1',
+};
+
+const embark = {
+  backgroundColor: '#B6E1F7',
 };
 
 const waterloop = {
@@ -66,7 +70,7 @@ const clearbridge = {
 };
 
 const blueprint = {
-  backgroundColor: '#E0F0FF',
+  backgroundColor: '#D1D9F0',
 };
 
 const bottomLinks = {
@@ -104,6 +108,17 @@ const Splash = () => {
                 Systems Design Engineering
               </a>{' '}
               at the University of Waterloo.
+              <br />
+              <br />
+              Right now, I'm working on infrastructure for telematics and live-monitoring of self-driving vehicles as a <a
+                className="link-hover"
+                style={{ ...link, ...embark }}
+                href="https://www.embarktrucks.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Software Engineering Intern
+              </a> at Embark Trucks.
               <br />
               <br />
               Previously I’ve worked as a{' '}
@@ -173,7 +188,7 @@ const Splash = () => {
               .
               <br />
               <br />
-              Currently seeking internships for Fall 2021 and Summer 2022—let’s
+              Currently seeking internships for Summer 2022—let’s
               chat!
             </p>
             <Container fluid>
