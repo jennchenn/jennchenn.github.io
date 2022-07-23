@@ -97,7 +97,7 @@ const Splash = () => {
             transitionAppearTimeout={500}
           >
             <p style={paragraphText}>
-              I am currently in my third year of{' '}
+              I am currently in my fourth year of{' '}
               <a
                 className="link-hover"
                 style={{ ...link, ...engineering }}
@@ -121,7 +121,7 @@ const Splash = () => {
               </a> at Embark Trucks.
               <br />
               <br />
-              Previously I’ve worked as a{' '}
+              Previously I've worked as a{' '}
               {/* <a
                 className="link-hover"
                 style={{ ...link, ...scotia }}
