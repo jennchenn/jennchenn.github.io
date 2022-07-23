@@ -10,7 +10,7 @@ const footer = {
 function Footer() {
   return (
     <div style={footer}>
-      <div>Made with 🍚 and 💛 © Jennifer Chen 2021</div>
+      <div>made with 🍚 and 💛 © jennifer c 2022</div>
     </div>
   );
 }

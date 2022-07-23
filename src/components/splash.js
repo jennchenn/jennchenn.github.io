@@ -130,7 +130,7 @@ const Splash = () => {
               >
                 Software Engineering Intern
               </a>{" "}
-              at Datadog.
+              @ <b>Datadog</b>.
               <br />
               <br />
               Previously, I've worked on problems like:
@@ -147,12 +147,12 @@ const Splash = () => {
                   >
                     Software Engineering Intern
                   </a>{" "}
-                  @ Embark Trucks
+                  @ <b>Embark Trucks</b>
                 </li>
                 <li style={listItem}>
                   Creating a platform to auto-approve car loans as a{" "}
-                  <span style={scotia}>Full-Stack Engineering Intern</span> @
-                  Scotiabank
+                  <span style={scotia}>Full-Stack Engineering Intern</span> @{" "}
+                  <b>Scotiabank</b>
                 </li>
                 <li style={listItem}>
                   Helping news companies make smarter paywall decisions as a{" "}
@@ -165,7 +165,7 @@ const Splash = () => {
                   >
                     Data Engineering Intern
                   </a>{" "}
-                  @ The Globe and Mail
+                  @ <b>The Globe and Mail</b>
                 </li>
                 <li style={listItem}>
                   Informing better land development decisions as a{" "}
@@ -178,7 +178,7 @@ const Splash = () => {
                   >
                     Software Engineering Intern
                   </a>{" "}
-                  @ Ratio.City
+                  @ <b>Ratio.City</b>
                 </li>
                 <li style={listItem}>
                   Ensuring quality of mobile applications as a{" "}
@@ -191,7 +191,7 @@ const Splash = () => {
                   >
                     QA Analyst
                   </a>{" "}
-                  @ Clearbridge Mobile
+                  @ <b>Clearbridge Mobile</b>
                 </li>
               </ul>
               <br />
