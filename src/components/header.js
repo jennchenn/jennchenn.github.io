@@ -16,7 +16,6 @@ const header = {
 const image = {
   width: "80px",
   height: "80px",
-  marginLeft: "15px",
 };
 
 // const menu = {
