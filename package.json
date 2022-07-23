@@ -1,5 +1,6 @@
 {
-  "name": "jennchenn.github.io-v2",
+  "name": "jennchenn.github.io",
+  "homepage": "https://jennchenn.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +24,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext .js",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
     "precommit-hook": "^3.0.0",
     "prettier-eslint": "^12.0.0"
   }
