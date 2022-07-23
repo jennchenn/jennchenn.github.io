@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5ff52cee.chunk.css",
-    "main.js": "/static/js/main.bbcf1820.chunk.js",
-    "main.js.map": "/static/js/main.bbcf1820.chunk.js.map",
+    "main.js": "/static/js/main.4f1960c3.chunk.js",
+    "main.js.map": "/static/js/main.4f1960c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.51f435c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.51f435c9.js.map",
     "static/js/2.1b4403ac.chunk.js": "/static/js/2.1b4403ac.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/index.html",
     "static/css/main.5ff52cee.chunk.css.map": "/static/css/main.5ff52cee.chunk.css.map",
     "static/js/2.1b4403ac.chunk.js.LICENSE.txt": "/static/js/2.1b4403ac.chunk.js.LICENSE.txt",
-    "static/media/JenniferChenResume.2679c375.pdf": "/static/media/JenniferChenResume.2679c375.pdf"
+    "static/media/JenniferChenResume.2679c375.pdf": "/static/media/JenniferChenResume.2679c375.pdf",
+    "static/media/logo.8d76fb4d.png": "/static/media/logo.8d76fb4d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51f435c9.js",
     "static/js/2.1b4403ac.chunk.js",
     "static/css/main.5ff52cee.chunk.css",
-    "static/js/main.bbcf1820.chunk.js"
+    "static/js/main.4f1960c3.chunk.js"
   ]
 }
