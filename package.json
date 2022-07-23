@@ -46,10 +46,6 @@
       "last 1 safari version"
     ]
   },
-  "pre-commit": [
-    "lint",
-    "build"
-  ],
   "devDependencies": {
     "eslint": "^7.23.0",
     "eslint-config-airbnb": "^18.2.1",
