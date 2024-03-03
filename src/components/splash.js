@@ -90,7 +90,7 @@ const listItem = {
 const Splash = () => {
   return (
     <div>
-      <title>Jennifer Chen</title>
+      <title>jenn chen</title>
       <div style={pageStyles}>
         <div style={body}>
           <ReactCSSTransitionGroup
@@ -98,7 +98,7 @@ const Splash = () => {
             transitionAppear={true}
             transitionAppearTimeout={300}
           >
-            <h1 style={header}>Hi I'm Jennifer — aspiring engineer.</h1>
+            <h1 style={header}>hi i'm jenn — aspiring engineer.</h1>
           </ReactCSSTransitionGroup>
           <ReactCSSTransitionGroup
             transitionName="body"
@@ -106,7 +106,7 @@ const Splash = () => {
             transitionAppearTimeout={500}
           >
             <p style={paragraphText}>
-              I am currently in my fourth year of{" "}
+              I graduated from {" "}
               <a
                 className="link-hover"
                 style={{ ...link, ...engineering }}
@@ -116,7 +116,7 @@ const Splash = () => {
               >
                 Systems Design Engineering
               </a>{" "}
-              at the University of Waterloo.
+              at the University of Waterloo in 2023.
               <br />
               <br />
               Right now, I'm working on helping companies monitor their
@@ -128,7 +128,7 @@ const Splash = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Software Engineering Intern
+                Software Engineer
               </a>{" "}
               @ <b>Datadog</b>.
               <br />
@@ -195,7 +195,7 @@ const Splash = () => {
                 </li>
               </ul>
               <br />
-              Outside of class I lead a tech for social good project at{" "}
+              During school I led engineers developing tech for social good at{" "}
               <a
                 className="link-hover"
                 style={{ ...link, ...blueprint }}
@@ -203,9 +203,9 @@ const Splash = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Blueprint
+                UW Blueprint
               </a>{" "}
-              and advise a team of 90+ students at{" "}
+              and advised a team of 90+ students at{" "}
               <a
                 className="link-hover"
                 style={{ ...link, ...waterloop }}
@@ -218,7 +218,7 @@ const Splash = () => {
               .
               <br />
               <br />
-              Currently seeking full-time opportunities beginning Fall 2023 —
+              Looking for opportunities at the intersection between tech and the environment —
               let's chat!
             </p>
             <Container fluid>
