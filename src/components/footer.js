@@ -10,7 +10,7 @@ const footer = {
 function Footer() {
   return (
     <div style={footer}>
-      <div>made with 🍚 and 💛 © jennifer c 2022</div>
+      <div>made with <span role="img" aria-label="rice bowl emoji">🍚</span> and <span role="img" aria-label="yellow heart emoji">💛</span> © jenn c 2024</div>
     </div>
   );
 }

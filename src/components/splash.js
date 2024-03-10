@@ -112,7 +112,7 @@ const Splash = () => {
                 style={{ ...link, ...engineering }}
                 href="https://uwaterloo.ca/systems-design-engineering/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Systems Design Engineering
               </a>{" "}
@@ -124,9 +124,9 @@ const Splash = () => {
               <a
                 className="link-hover"
                 style={{ ...link, ...datadog }}
-                href="https://github.com/DataDog/dd-trace-rb"
+                href="https://github.com/DataDog/datadog-agent"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Software Engineer
               </a>{" "}
@@ -143,7 +143,7 @@ const Splash = () => {
                     style={{ ...link, ...embark }}
                     href="https://www.embarktrucks.com/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     Software Engineering Intern
                   </a>{" "}
@@ -161,7 +161,7 @@ const Splash = () => {
                     style={{ ...link, ...globe }}
                     href="https://www.sophi.io/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     Data Engineering Intern
                   </a>{" "}
@@ -174,7 +174,7 @@ const Splash = () => {
                     style={{ ...link, ...ratio }}
                     href="https://www.ratio.city/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     Software Engineering Intern
                   </a>{" "}
@@ -187,7 +187,7 @@ const Splash = () => {
                     style={{ ...link, ...clearbridge }}
                     href="https://clearbridgemobile.com/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     QA Analyst
                   </a>{" "}
@@ -201,7 +201,7 @@ const Splash = () => {
                 style={{ ...link, ...blueprint }}
                 href="http://uwblueprint.org/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 UW Blueprint
               </a>{" "}
@@ -211,7 +211,7 @@ const Splash = () => {
                 style={{ ...link, ...waterloop }}
                 href="http://waterloop.ca/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Waterloop
               </a>
@@ -229,7 +229,7 @@ const Splash = () => {
                     href={Resume}
                     download="Jennifer Chen Resume"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     resume
                   </a>
@@ -239,7 +239,7 @@ const Splash = () => {
                     style={link}
                     href="https://www.linkedin.com/in/jenniferjcchen"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     linkedin
                   </a>
@@ -249,7 +249,7 @@ const Splash = () => {
                     style={link}
                     href="https://github.com/jennchenn"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     github
                   </a>
@@ -258,9 +258,9 @@ const Splash = () => {
                   <a
                     className="link-hover"
                     style={link}
-                    href="mailto:j759chen@uwaterloo.ca"
+                    href="mailto:jenniferqtchen@gmail.com2"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     email
                   </a>
