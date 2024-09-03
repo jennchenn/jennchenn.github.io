@@ -89,7 +89,7 @@ const listItem = {
 
 const Splash = () => {
   return (
-    <div>
+    <>
       <title>jenn chen</title>
       <div style={pageStyles}>
         <div style={body}>
@@ -270,7 +270,7 @@ const Splash = () => {
           </ReactCSSTransitionGroup>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
