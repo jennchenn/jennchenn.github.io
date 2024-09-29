@@ -13,7 +13,7 @@ const pageStyles = {
 
 const body = {
   paddingTop: "70px",
-  paddingBottom: "80px",
+  paddingBottom: "30px",
   paddingRight: "40px",
   paddingLeft: "40px",
 };
