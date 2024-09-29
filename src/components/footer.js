@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import cactus from "../assets/cactus.png"
-import flower from "../assets/flower.png"
+import cactus from "../assets/cactus.svg"
+import flower from "../assets/flower.svg"
 const footer = {
   marginBottom: "40px",
   paddingLeft: "40px",
