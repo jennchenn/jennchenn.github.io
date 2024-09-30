@@ -24,7 +24,6 @@ const imageCactus = {
   height: "226px",
   marginLeft: "auto",
   marginRight: "auto",
-  cursor: "pointer",
 };
 
 const imageFlower = {
@@ -32,7 +31,6 @@ const imageFlower = {
   height: "300px",
   marginLeft: "auto",
   marginRight: "auto",
-  cursor: "pointer",
 };
 
 function Footer() {
