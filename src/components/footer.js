@@ -7,10 +7,19 @@ const footer = {
   paddingRight: "40px",
   textAlign: "center",
 };
-const image = {
+const imageDiv = {
   marginBottom: "40px",
-  height: "300px",
+  height: "291px",
+  minWidth: "146px",
   overflow: "clip",
+  display: "flex",
+}
+
+const image = {
+  width: "100%",
+  height: "100%",
+  marginLeft: "auto",
+  marginRight: "auto",
 }
 
 
@@ -19,8 +28,8 @@ function Footer() {
 
   return (
     <div style={footer}>
-      <div style={image} >
-      <img src={imagePath} alt="cactus drawing" onMouseEnter={() => setImagePath(flower)} onMouseLeave={() => setImagePath(cactus)}>
+      <div style={imageDiv} >
+      <img style={image} src={imagePath} alt="cactus drawing" onMouseEnter={() => setImagePath(flower)} onMouseLeave={() => setImagePath(cactus)}>
       </img>
       </div>
       <div >made with <span role="img" aria-label="rice bowl emoji">🍚</span> and <span role="img" aria-label="yellow heart emoji">💛</span> © jenn c 2024</div>
