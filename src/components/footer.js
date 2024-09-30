@@ -38,6 +38,10 @@ const imageFlower = {
 function Footer() {
   const [imagePath, setImagePath] = useState(cactus);
 
+  [cactus, flower].forEach((imageUrl) => {
+    new Image().src = imageUrl;
+  });
+
   return (
     <div style={footer}>
       <div style={imageDiv}>
